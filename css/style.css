@@ -195,13 +195,23 @@ body {
     rgba(255, 255, 255, 0) 50%);
 } */
 
+.hero .mask-container {
+  position: absolute;
+  /* background: salmon; */
+  inset: 0;
+  mask-image: url("../img/header bg.svg");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center;
+}
+
 .hero .content {
   padding: 1.4rem 7%;
   /* max-width: 60rem; */
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 150px;
+  top: 130px;
 }
 
 .hero .content h1 {
